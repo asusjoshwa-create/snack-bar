@@ -1,0 +1,7 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-ink text-paper font-body; }
+.field { @apply w-full bg-coal border border-white/15 px-3 py-2 text-sm text-paper outline-none focus:border-ember; }
+.btn { @apply font-display font-bold tracking-wider text-sm px-5 py-2 border border-ember text-paper hover:bg-ember transition-colors; }
+.btn-solid { @apply bg-ember hover:bg-orange-600; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
